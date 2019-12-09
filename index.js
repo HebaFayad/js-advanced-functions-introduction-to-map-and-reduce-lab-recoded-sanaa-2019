@@ -17,7 +17,7 @@ function mapToNoChange(src) {
 function mapToDouble(src) {
   let r = []
   for (let i = 0; i < src.length; i++ ) {
-    r.push(2 * src[i]) // Unique work
+    r.push(2 * src[i]) 
   }
   return r
 }
@@ -25,7 +25,7 @@ function mapToDouble(src) {
 function mapToSquare(src) {
   let r = []
   for (let i = 0; i < src.length; i++ ) {
-    r.push(src[i] * src[i]) // Unique work
+    r.push(src[i] * src[i]) 
   }
   return r
 }
